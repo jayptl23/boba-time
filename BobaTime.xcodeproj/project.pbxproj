@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9107FB562A44E37900C6F3B7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9107FB552A44E37900C6F3B7 /* DataService.swift */; };
+		911C89482A6EC27F009ACF05 /* BusinessViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C89472A6EC27F009ACF05 /* BusinessViewModel_Tests.swift */; };
+		913A93442A4B1C6C00732648 /* AnnotationMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A93432A4B1C6C00732648 /* AnnotationMarker.swift */; };
+		91527C572A55E68100EFB827 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91527C562A55E68100EFB827 /* Theme.swift */; };
+		916FA42E2A4F5AFF009FCFD2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916FA42D2A4F5AFF009FCFD2 /* LocationManager.swift */; };
+		916FA4312A4F5FBB009FCFD2 /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916FA4302A4F5FBB009FCFD2 /* MKCoordinateRegion+Extensions.swift */; };
+		916FA4342A4F64CC009FCFD2 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916FA4332A4F64CC009FCFD2 /* LocalSearchService.swift */; };
+		916FA4362A4F69C1009FCFD2 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916FA4352A4F69C1009FCFD2 /* Landmark.swift */; };
+		919E54512A6AFBF30039EF06 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919E54502A6AFBF30039EF06 /* MockDataService.swift */; };
+		91A3704E2A4371C0008FE66E /* BobaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3704D2A4371C0008FE66E /* BobaTimeApp.swift */; };
+		91A370502A4371C0008FE66E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3704F2A4371C0008FE66E /* ContentView.swift */; };
+		91A370522A4371C1008FE66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A370512A4371C1008FE66E /* Assets.xcassets */; };
+		91A370552A4371C1008FE66E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A370542A4371C1008FE66E /* Preview Assets.xcassets */; };
+		91A3705F2A4372FC008FE66E /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3705E2A4372FC008FE66E /* SearchResponse.swift */; };
+		91A370612A437391008FE66E /* BusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A370602A437391008FE66E /* BusinessViewModel.swift */; };
+		91A3706B2A439755008FE66E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3706A2A439755008FE66E /* Card.swift */; };
+		91EA4D822A6C528B000107EE /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA4D812A6C528B000107EE /* MockURLProtocol.swift */; };
+		91EA4D842A6C57D9000107EE /* DataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EA4D832A6C57D9000107EE /* DataService_Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919E544B2A6AF26D0039EF06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A370422A4371C0008FE66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A370492A4371C0008FE66E;
+			remoteInfo = BobaTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9107FB552A44E37900C6F3B7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		911C89472A6EC27F009ACF05 /* BusinessViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewModel_Tests.swift; sourceTree = "<group>"; };
+		913A93432A4B1C6C00732648 /* AnnotationMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationMarker.swift; sourceTree = "<group>"; };
+		91527C562A55E68100EFB827 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		916FA42D2A4F5AFF009FCFD2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		916FA4302A4F5FBB009FCFD2 /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		916FA4332A4F64CC009FCFD2 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
+		916FA4352A4F69C1009FCFD2 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		919E54472A6AF26D0039EF06 /* BobaTime_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobaTime_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919E54502A6AFBF30039EF06 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		91A3704A2A4371C0008FE66E /* BobaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BobaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3704D2A4371C0008FE66E /* BobaTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaTimeApp.swift; sourceTree = "<group>"; };
+		91A3704F2A4371C0008FE66E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91A370512A4371C1008FE66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A370542A4371C1008FE66E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91A3705E2A4372FC008FE66E /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		91A370602A437391008FE66E /* BusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewModel.swift; sourceTree = "<group>"; };
+		91A3706A2A439755008FE66E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		91EA4D812A6C528B000107EE /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		91EA4D832A6C57D9000107EE /* DataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService_Tests.swift; sourceTree = "<group>"; };
+		91FB8D6E2A700E900093E7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919E54442A6AF26D0039EF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A370472A4371C0008FE66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91527C552A55E66E00EFB827 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				91527C562A55E68100EFB827 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		916FA42C2A4F5AE6009FCFD2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				916FA42D2A4F5AFF009FCFD2 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		916FA42F2A4F5F89009FCFD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				916FA4302A4F5FBB009FCFD2 /* MKCoordinateRegion+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		916FA4322A4F64B2009FCFD2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9107FB552A44E37900C6F3B7 /* DataService.swift */,
+				916FA4332A4F64CC009FCFD2 /* LocalSearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		919E54482A6AF26D0039EF06 /* BobaTime_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				919E54502A6AFBF30039EF06 /* MockDataService.swift */,
+				91EA4D812A6C528B000107EE /* MockURLProtocol.swift */,
+				91EA4D832A6C57D9000107EE /* DataService_Tests.swift */,
+				911C89472A6EC27F009ACF05 /* BusinessViewModel_Tests.swift */,
+			);
+			path = BobaTime_Tests;
+			sourceTree = "<group>";
+		};
+		91A370412A4371C0008FE66E = {
+			isa = PBXGroup;
+			children = (
+				91A3704C2A4371C0008FE66E /* BobaTime */,
+				919E54482A6AF26D0039EF06 /* BobaTime_Tests */,
+				91A3704B2A4371C0008FE66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91A3704B2A4371C0008FE66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A3704A2A4371C0008FE66E /* BobaTime.app */,
+				919E54472A6AF26D0039EF06 /* BobaTime_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A3704C2A4371C0008FE66E /* BobaTime */ = {
+			isa = PBXGroup;
+			children = (
+				91FB8D6E2A700E900093E7B0 /* Info.plist */,
+				916FA4322A4F64B2009FCFD2 /* Services */,
+				916FA42F2A4F5F89009FCFD2 /* Extensions */,
+				916FA42C2A4F5AE6009FCFD2 /* Managers */,
+				91A370632A439343008FE66E /* Resources */,
+				91A3705B2A4371DC008FE66E /* Models */,
+				91A3705C2A4371E7008FE66E /* Views */,
+				91A3705D2A4371F0008FE66E /* ViewModels */,
+				91A3704F2A4371C0008FE66E /* ContentView.swift */,
+				91A3704D2A4371C0008FE66E /* BobaTimeApp.swift */,
+				91A370512A4371C1008FE66E /* Assets.xcassets */,
+				91A370532A4371C1008FE66E /* Preview Content */,
+			);
+			path = BobaTime;
+			sourceTree = "<group>";
+		};
+		91A370532A4371C1008FE66E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91A370542A4371C1008FE66E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91A3705B2A4371DC008FE66E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91A3705E2A4372FC008FE66E /* SearchResponse.swift */,
+				916FA4352A4F69C1009FCFD2 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		91A3705C2A4371E7008FE66E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91A3706A2A439755008FE66E /* Card.swift */,
+				913A93432A4B1C6C00732648 /* AnnotationMarker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		91A3705D2A4371F0008FE66E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				91A370602A437391008FE66E /* BusinessViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		91A370632A439343008FE66E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91527C552A55E66E00EFB827 /* Theme */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919E54462A6AF26D0039EF06 /* BobaTime_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E544F2A6AF26D0039EF06 /* Build configuration list for PBXNativeTarget "BobaTime_Tests" */;
+			buildPhases = (
+				919E54432A6AF26D0039EF06 /* Sources */,
+				919E54442A6AF26D0039EF06 /* Frameworks */,
+				919E54452A6AF26D0039EF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919E544C2A6AF26D0039EF06 /* PBXTargetDependency */,
+			);
+			name = BobaTime_Tests;
+			productName = BobaTime_Tests;
+			productReference = 919E54472A6AF26D0039EF06 /* BobaTime_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91A370492A4371C0008FE66E /* BobaTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A370582A4371C1008FE66E /* Build configuration list for PBXNativeTarget "BobaTime" */;
+			buildPhases = (
+				91A370462A4371C0008FE66E /* Sources */,
+				91A370472A4371C0008FE66E /* Frameworks */,
+				91A370482A4371C0008FE66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BobaTime;
+			productName = BobaTime;
+			productReference = 91A3704A2A4371C0008FE66E /* BobaTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A370422A4371C0008FE66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					919E54462A6AF26D0039EF06 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 91A370492A4371C0008FE66E;
+					};
+					91A370492A4371C0008FE66E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 91A370452A4371C0008FE66E /* Build configuration list for PBXProject "BobaTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A370412A4371C0008FE66E;
+			productRefGroup = 91A3704B2A4371C0008FE66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A370492A4371C0008FE66E /* BobaTime */,
+				919E54462A6AF26D0039EF06 /* BobaTime_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919E54452A6AF26D0039EF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A370482A4371C0008FE66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A370552A4371C1008FE66E /* Preview Assets.xcassets in Resources */,
+				91A370522A4371C1008FE66E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919E54432A6AF26D0039EF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EA4D822A6C528B000107EE /* MockURLProtocol.swift in Sources */,
+				919E54512A6AFBF30039EF06 /* MockDataService.swift in Sources */,
+				911C89482A6EC27F009ACF05 /* BusinessViewModel_Tests.swift in Sources */,
+				91EA4D842A6C57D9000107EE /* DataService_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A370462A4371C0008FE66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A370502A4371C0008FE66E /* ContentView.swift in Sources */,
+				91A3706B2A439755008FE66E /* Card.swift in Sources */,
+				91A3704E2A4371C0008FE66E /* BobaTimeApp.swift in Sources */,
+				91A370612A437391008FE66E /* BusinessViewModel.swift in Sources */,
+				91527C572A55E68100EFB827 /* Theme.swift in Sources */,
+				91A3705F2A4372FC008FE66E /* SearchResponse.swift in Sources */,
+				913A93442A4B1C6C00732648 /* AnnotationMarker.swift in Sources */,
+				9107FB562A44E37900C6F3B7 /* DataService.swift in Sources */,
+				916FA4342A4F64CC009FCFD2 /* LocalSearchService.swift in Sources */,
+				916FA42E2A4F5AFF009FCFD2 /* LocationManager.swift in Sources */,
+				916FA4312A4F5FBB009FCFD2 /* MKCoordinateRegion+Extensions.swift in Sources */,
+				916FA4362A4F69C1009FCFD2 /* Landmark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919E544C2A6AF26D0039EF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A370492A4371C0008FE66E /* BobaTime */;
+			targetProxy = 919E544B2A6AF26D0039EF06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		919E544D2A6AF26D0039EF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T77PP53MB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.BobaTime-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BobaTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BobaTime";
+			};
+			name = Debug;
+		};
+		919E544E2A6AF26D0039EF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T77PP53MB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.BobaTime-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BobaTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BobaTime";
+			};
+			name = Release;
+		};
+		91A370562A4371C1008FE66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91A370572A4371C1008FE66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A370592A4371C1008FE66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BobaTime/Preview Content\"";
+				DEVELOPMENT_TEAM = T77PP53MB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BobaTime/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow access to location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow access to location?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BobaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A3705A2A4371C1008FE66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BobaTime/Preview Content\"";
+				DEVELOPMENT_TEAM = T77PP53MB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BobaTime/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow access to location?";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow access to location?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BobaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919E544F2A6AF26D0039EF06 /* Build configuration list for PBXNativeTarget "BobaTime_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919E544D2A6AF26D0039EF06 /* Debug */,
+				919E544E2A6AF26D0039EF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A370452A4371C0008FE66E /* Build configuration list for PBXProject "BobaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A370562A4371C1008FE66E /* Debug */,
+				91A370572A4371C1008FE66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A370582A4371C1008FE66E /* Build configuration list for PBXNativeTarget "BobaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A370592A4371C1008FE66E /* Debug */,
+				91A3705A2A4371C1008FE66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A370422A4371C0008FE66E /* Project object */;
+}
